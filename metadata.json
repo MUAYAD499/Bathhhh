@@ -1,0 +1,6 @@
+{
+  "name": "منصة البث المجتمعي لتيليجرام",
+  "description": "لوحة تحكم عربية لإدارة ونشر التحديثات المجتمعية والمحتوى التعليمي في مجموعات تيليجرام المصرح بها مع تحكم ذكي بالمعدل وإشعارات فورية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

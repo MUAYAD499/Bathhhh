@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telegram-community-broadcaster
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: NODE_ENV=production node server.ts
+    healthCheckPath: /ping
+    envVars:
+      - key: NODE_ENV
+        value: production
